@@ -5,7 +5,7 @@ Unqualified languages are interpreted as having the maximum qualification of `1`
 
 For more information:
 * [HTTP/1.1 Accept-Language specification](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.4) 
-* [API Reference](http://godoc.org/github.com/codegangsta/martini-contrib/acceptlang)
+* [API Reference](http://godoc.org/github.com/martini-contrib/acceptlang)
 
 ## Usage
 Simply add a new handler function instance to your handler chain using the `acceptlang.Languages()` function as well as an `AcceptLanguages` dependency in your handler function. The `AcceptLanguages` dependency will be satisified by the handler.
