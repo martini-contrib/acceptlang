@@ -17,8 +17,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/codegangsta/martini"
-	"github.com/codegangsta/martini-contrib/acceptlang"
+	"github.com/go-martini/martini"
+	"github.com/martini-contrib/acceptlang"
 	"net/http"
 )
 
